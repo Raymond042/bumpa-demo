@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 70px;
+    font-size: 1.2rem;
+}
+
+body, .nav ul li .login, .header, .fourth_section .list ul li:hover .submenu {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul li, .bumpa_icon, h1, .learn_more, .learn_more_second, .fourth_section .list ul li ul li .learn_more_third, .sixth_section .more_support .learn_more_fourth, .fifth_section .icons_box .icons_box_details ul li::before  {
+    display: inline-block;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin-left: 15px;
+    position: relative;
+}
+
+.nav ul li a {
+    color: black;
+    padding: 20px;
+    font-size: 0.95rem;
+}
+
+.nav ul li .submenu_one {
+    display: none;
+    color: #000;
+}
+
+.nav ul li:hover .submenu_one {
+    padding: 50px;
+    background-color: #fff;
+    border: 2px solid black;
+    position: absolute;
+    top: 45px;
+    left: -6px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position:fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav ul li .sell_on_instragram {
+    background-color: #d6ecd6;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nav ul li .start_link, .first_section .get_started_div .get_started {
+    padding: 12px 30px;
+    border: 2px solid #008000; 
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.nav ul li .sell_on_instragram,
+.nav ul li .login, .how_bumpa_can_help_you .green_bumpa, .sixth_section .heading .number, .learn_more, .seventh_section .compare_plans, .fifth_section .icons_box .icons_box_details ul li::before {
+    color: #559d55;
+}
+
+
+.nav ul li .get_started, .first_section .get_started_div .get_started, .third_section, .learn_more_second, .fifth_section .connected, .icons_box .icons_box_details p, .icons_box .icons_box_details ul li, .seventh_section, .seventh_section .bumpa_plans_details .get_started_second, .eight_section {
+    color: #fff;
+}
+
+.nav ul li .get_started, .first_section .get_started_div .get_started, .third_section, .learn_more_second {
+    background-color: #3b8d3b;
+}
+
+.first_section .get_started_div, .first_section .lady_advert_div {
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+
+.first_section .get_started_div .the_best_business {
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.first_section .get_started_div .create_a_business_website {
+    margin: 20px 0 10px 0;
+    line-height: 1.7rem;
+    color: #595959;
+}
+
+.first_section, .second_section, .phone_image_background, .third_section, .fourth_section, .fifth_section .icons_box, .sixth_section .pic_slides .pic_section, .seventh_section .bumpa_plans_details, .eight_section, .eight_section .start_with_bumpa .app, .eight_section .start_with_bumpa .apps, .media_icons_section .overflow_box, .seventh_section .bumpa_plan .bumpa_starter, .footer .footer_section_one .bumpa_second, .footer {
+    display: flex;
+}
+
+.first_section, .second_section, .phone_image_background, .third_section, .fourth_section, .fifth_section .icons_box, .sixth_section .pic_slides .pic_section, .seventh_section .bumpa_plans_details, header, .first_section, .second_section, .eight_section, .footer {
+    justify-content: space-between;
+}
+
+.first_section, .second_section, .phone_image_background, .third_section, .fourth_section, .fifth_section .icons_box, .sixth_section .pic_slides .pic_section, .seventh_section .bumpa_plans_details {
+    margin-top: 70px;
+}
+
+.header, .first_section, .second_section, .eight_section {
+    align-items: center;
+}
+
+.first_section .get_started_div .get_started_link, .how_bumpa_can_help_you, .fifth_section, .sixth_section {
+    margin-top: 50px;
+}
+
+.second_section .business_online, .second_section .tech_enabled_business {
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 650px;
+    padding: 35px;
+    background-color: #f5f8f5;
+}
+
+.second_section .business_online, .second_section .tech_enabled_business, .fourth_section .list, .fourth_section .laptop_pic .sixth_section .pic_slides .pic, .sixth_section .pic_slides .recommendation, .eight_section .start_with_bumpa, .eight_section .phone_images {
+    width: 48%;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.phone_image_background .phone_background_one, .phone_image_background .phone_background_two {
+    border: 10px solid #ffffff;
+    background-color: #eae7e7;
+    width: 20%;
+    border-radius: 25px 25px 0 0;
+   }
+
+.phone_image_background .phone_background_one {
+    height: 300px;
+    margin: -360px 0 0 160px;
+}
+
+.phone_image_background .phone_background_two {
+    height: 400px;
+    margin: -460px 160px 0 0;
+    /* padding-right: 200px; */
+}
+
+.one_bar {
+    margin: -380px 0 0 130px; 
+}
+
+.one_bar, .cloth_and_stars, .five_bars, .mercia_shoe, .whatsapp_icon_one, .facebook_icon_one, .instagram_icon-one, .unknown_icon_one, .shoe_two, .fourth_section .list ul li:hover .submenu, .fourth_section .list ul li, .seventh_section .compare_plans  {
+    display: block;
+}
+
+.cloth_and_stars {
+    margin: 20px 0 0 15px;
+}
+
+.five_bars {
+    margin: -140px 0 0 300px;
+}
+
+.mercia_shoe {
+    margin: -180px 0 0 770px;
+}
+
+.icons_set_one {
+    margin: -100px 0 0 1015px;
+}
+
+.shoe_two {
+    margin: 70px 0 0 990px;
+}
+
+.third_section {
+    padding: 50px 70px 0;
+    border-radius: 20px;
+    
+}
+
+.grow_business {
+    padding: 200px 70px;
+}
+
+.learn_more, .learn_more_second {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.second_section .business_online, .second_section .tech_enabled_business, .phone {
+    margin-top: 20px;
+}
+
+.phone {
+    border-radius: 50px 50px 0 0;
+    /* border-top-right-radius: 50px; */
+}
+
+@keyframes expand {
+    from {font-size: 0.5rem;}
+    to {font-size: 1.2rem;}
+}
+
+.grow_business:hover {
+    animation: expand 1s 0s 1 normal;
+}
+
+.how_bumpa_can_help_you, .fifth_section .icons_box .icons_box_details, .sixth_section .heading, .sixth_section .more_support .learn_fourth, h3, .sixth_section .more_support p, .seventh_section .choose_bumpa_plan .larger_text, .seventh_section .choose_bumpa_plan p, .seventh_section .compare_plans, .bumpa_in_press {
+    text-align: center;
+}
+
+.how_bumpa_can_help_you:hover {
+    animation: expand 1s 0s 1 normal;
+}
+
+/* .how_bumpa_header {
+    margin-top: 50px;
+} */
+
+.fourth_section .list ul li {
+    position: relative;
+    list-style-type: none;
+}
+
+.fourth_section .list ul li:hover .submenu {
+    position: absolute;
+    padding: 0 10px;
+    margin: 2px;
+    z-index: 1;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.fourth_section .list ul li ul li .learn_more_third, .sixth_section .more_support .learn_more_fourth, .eight_section {
+    background-color: #559d55;
+}
+
+.fourth_section .list ul li ul li .learn_more_third, .sixth_section .more_support .learn_more_fourth {
+    padding: 5px 12px;
+    border: 2px solid #559d55; 
+    border-radius: 7px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.fourth_section .list ul li {
+    font-weight: bold;
+    margin: 5px 0;
+    border-bottom: 1px solid #adacac;
+    padding: 10px 0 20px;
+}
+
+.submenu {
+    display: none;
+}
+
+.fourth_section .list ul li ul li {
+    font-weight: 100;
+    font-size: 0.9rem;
+    border-bottom: none;
+}
+
+.fifth_section {
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.fifth_section {
+    background-color: #222121;
+}
+
+.fifth_section .connected_apps, .sixth_section .bold_header {
+    font-size: 2.8rem;
+}
+
+.fifth_section .icons_box .icons_box_details ul li {
+    list-style-position: inside;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+.fifth_section .icons_box .icons_box_details ul {
+    list-style: none;
+}
+
+.fifth_section .icons_box .icons_box_details ul li::before {
+    content: "\2022";  
+    font-weight: bold;  
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+.fifth_section .icons_box .icons_box_details p {
+    font-size: 1.6rem;
+}
+
+.sixth_section {
+    background-color: #ecf3ec;
+    padding: 50px;
+}
+
+.sixth_section .pic_slides .pic_section, .media_icons_section .overflow_box {
+    align-items: center;
+}
+
+.sixth_section .pic_slides .pic_section .recommendation .recommender, .seventh_section .bumpa_plans_details .bumpa_plan .price {
+    margin-top: 20px;
+}
+
+@keyframes slide {
+    0% {background-image: url(./images/recommender_one.png);}
+
+    50% {
+        background-image: url(./images/recommender_two.png);
+    }
+    100% {background-image: url(./images/recommender_three.png);}
+}
+
+
+.sixth_section .pictures {
+    margin: 60px 0 70px;
+    width: 100%;
+    height: 300px;
+    background-image: url(./images/recommender_one.png);
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+.sixth_section .more_support .learn_more_fourth {
+    margin: 20px;
+}
+
+.seventh_section {
+    background-color: #000;
+    padding: 50px 20px;
+}
+
+.seventh_section .choose_bumpa_plan .larger_text, .seventh_section .bumpa_plans_details .bumpa_plan .larger_text {
+    font-size: 2.7rem;
+}
+
+.seventh_section .bumpa_plan, .eight_section  { 
+    border-radius: 20px;
+}
+
+.seventh_section .bumpa_plan {
+    background-color: #262626;
+    padding: 20px;
+    width: 32%
+}
+
+.seventh_section .bumpa_plans_details p, .seventh_section .bumpa_plans_details ul li, .seventh_section .bumpa_plans_details .get_started_second, .seventh_section {
+    font-size: 0.95rem;
+} 
+
+.seventh_section .bumpa_plans_details ul li {
+    margin: 10px 20px;
+    list-style-type: '\2713';
+    padding-left: 10px;
+}
+
+.seventh_section .bumpa_plan .bumpa_starter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seventh_section .bumpa_plan .bumpa_starter div .recommended {
+    background-color: #686868;
+    border-radius: 15px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+.seventh_section .bumpa_plans_details .bumpa_plan .faint_text {
+    color: #979494;
+    padding: 20px 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #979494;
+    font-size: 1.02rem ;
+}
+
+.seventh_section .choose_bumpa_plan:hover  {
+    animation: expand 1s 0s 1 normal
+}
+
+.seventh_section .bumpa_plans_details .get_started_second {
+    font-weight: bold;
+    padding: 13px 120px;
+    background-color: #559d55;
+    border-radius: 7px;
+    display: block;
+    text-align: center;
+}
+
+.seventh_section .bumpa_plans_details .get_started_for_bumpa_basic {
+    margin: 255px 0 20px;
+}
+
+.seventh_section .bumpa_plans_details .get_started_for_bumpa_starter {
+    margin: 59px 0 20px;
+}
+
+.seventh_section .bumpa_plans_details .get_started_for_bumpa_pro {
+    margin: 30px 0 20px;
+}
+
+.seventh_section .compare_plans {
+    font-size: 1rem;
+    margin: 70px 0 0;
+}
+
+.media_icons_section {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+}
+
+.media_icons_section .overflow_box {
+    animation: run 40s 0s linear infinite;
+    position: absolute;
+    width: 2000px;
+    height: 250px;
+}
+
+@keyframes run {
+    0% {
+        left:0;
+
+    }
+
+    100% {
+        left:-2000px;
+        
+    }
+}
+
+.bumpa_in_press {
+    margin: 50px;
+}
+
+.nav ul li .get_started:hover, .first_section .get_started_div .get_started:hover, .fourth_section .list ul li .submenu ul li .learn_more_third:hover, .sixth_section .more_support .learn_more_fourth:hover, .seventh_section .bumpa_plans_details .get_started_second:hover {
+    background-color: #377337;
+}  
+
+.eight_section .start_with_bumpa .apps .app {
+    background-color: white;
+    width:32%;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px 20px 0 0;
+}
+
+.eight_section .start_with_bumpa .apps .app .get_it {
+    color: #000;
+    font-weight: bold;
+    align-items: center;
+}
+
+.eight_section .start_with_bumpa .app .get_it .get {
+    font-size: 0.7rem;
+}
+
+.media_icons_section .overflow_box .media_icons_box {
+    margin-right: 20px;
+}
+
+.eight_section {
+    padding: 50px 50px 0 50px;
+}
+
+.footer .footer_section_one .bumpa_second .bumpa_text {
+    margin-left: 5px;
+}
+
+.footer {
+    margin: 70px 0 50px 0;
+    font-size: 1.1rem;
+}
+
+.footer .footer_section {
+    width: 23%
+}
+
+.footer .footer_section_one {
+    width: 33%;
+    margin-right: 120px;
+}
+
+.footer .footer_section_one a img {
+    width: 17px;
+    height: 17px;
+    margin: 20px 15px 20px 0;
+}
+
+.footer .footer_section li {
+    list-style-type: none;
+    margin: 25px 0;
+}
+
+.footer .footer_section li a {
+    color: #000;
+}
+
+.footer .footer_section li h3 {
+    text-align: left;
+}
+
+.footer {
+    align-items: first baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
